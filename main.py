@@ -19,4 +19,4 @@ for path in image_paths:
         text = pytesseract.image_to_string(img)
         print('For Image {0} text is : {1}'.format(path, text))
     else:
-        print(f'Its not a image path {0}'.format(path))
+        print('Its not a image path {0}'.format(path))
